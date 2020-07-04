@@ -19,7 +19,7 @@ function addGS() {
         referrerPolicy: 'no-referrer',
         body: JSON.stringify({bookingID:"test booking id"})
 
-    });
+    });//
 
 }
 
