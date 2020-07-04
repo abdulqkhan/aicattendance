@@ -19,7 +19,7 @@ function addGS() {
         referrerPolicy: 'no-referrer',
         body: JSON.stringify({bookingID:"test booking id"})
 
-    });//
+    });
 
 }
 
@@ -32,9 +32,9 @@ function testGS() {
     .then(d => d.json())
     .then(d => {
     
-        //response = [{status : "Cool"}]; this is the object being returned from the server.
+        //response = [{bookingID : "xyz"}]; this is the object being returned from the server.
     
-        document.getElementById("app").textContent = d[0].status;
+        document.getElementById("app").textContent = d[0].bookingID;
         
     
     });
