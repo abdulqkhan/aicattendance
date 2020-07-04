@@ -26,7 +26,7 @@ function addGS() {
 
 function testGS() {
 
-    const url = "https://script.google.com/macros/s/AKfycbyO1nYaT1eZQyAfzPVll2b8BYAx0RCHDQGRhOsX7HJcqy8lAEm-/exec";
+    const url = "https://script.google.com/macros/s/AKfycbyO1nYaT1eZQyAfzPVll2b8BYAx0RCHDQGRhOsX7HJcqy8lAEm-/exec?bookingID=123456";
 
     fetch(url)
     .then(d => d.json())
